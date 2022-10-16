@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     if(argc != 3)
     {
-        printf("Invalid argument count!\n");
+        printf("Usage: %s <input> <output>\n", argv[0]);
 
         return 1;
     }
