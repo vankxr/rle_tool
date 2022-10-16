@@ -1,4 +1,4 @@
-CFLAGS = -Os -Wall
+CFLAGS = -O3 -Wall
 CC = gcc
 
 all: rle_encode rle_decode
